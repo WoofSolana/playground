@@ -1,8 +1,8 @@
 <template>
     <body>
-        <div class="app container">
-            <Playground />
-        </div>
+  <div>
+    <Playground />
+  </div>
     </body>
 </template>
 
