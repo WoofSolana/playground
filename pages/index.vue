@@ -1,33 +1,29 @@
 <template>
-    <body>
-        <div class="app container">
-            <Woofers />
-            <Footer />
-        </div>
-    </body>
+  <body>
+    <div>
+      <Playground />
+    </div>
+  </body>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style>
 body {
-    background: black;
-    height: 100%;
-    font-family: 'Libre Franklin', sans-serif;
+  background: black;
+  height: 100%;
+  font-family: "Libre Franklin", sans-serif;
 }
 
-  h1,
-  h2,
-  h3 {
-    font-family: 'Inter', sans-serif;
-
-  }
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+}
 .app {
-    max-width: 100%;
-    overflow: hidden;
+  max-width: 100%;
+  overflow: hidden;
 }
 </style>
