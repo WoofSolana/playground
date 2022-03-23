@@ -1,4 +1,4 @@
-# WOOF Website
+# WOOF Rarity Playground
 
 ## Build Setup
 
