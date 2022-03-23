@@ -7,6 +7,8 @@
                     <a href="https://woofsolana.io" class="text-white text-3xl hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent p-1"><li class="transform uppercase">HOME</li></a>
                     <a href="https://swap.woofsolana.io" class="text-white text-3xl hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent p-1"><li class="transform uppercase">SWAP</li></a>
                     <a href="https://dex.woofsolana.io" class="text-white text-3xl hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent p-1"><li class="transform uppercase">DEX</li></a>
+                    <a href="https://woofers.woofsolana.io" class="text-white text-3xl hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent p-1"><li class="transform uppercase">WOOFERS</li></a>
+                    <a href="https://playground.woofsolana.io" class="text-white text-3xl hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent p-1"><li class="transform uppercase">PLAYGROUND</li></a>
                 </ul>
                 <div class="buy-woof-button-wrapper flex justify-center items-center text-white"></div>
                 <Purplecircle />
