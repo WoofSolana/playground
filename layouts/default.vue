@@ -1,5 +1,4 @@
 <template>
-
     <div>
         <nav class="navbar  p-4 top-0 transform z-40 w-full bg-black">
         <div class="navbar lg:px-8 flex justify-around w-full mx-auto">

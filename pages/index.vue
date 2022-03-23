@@ -1,12 +1,14 @@
 <template>
-    <body>
-  <div>
-    <Playground />
-  </div>
-    </body>
+  <body >
+    <div>
+      <Playground />
+    </div>
+  </body>
 </template>
 
 <script>
+import image from '/assets/images/universe.jpg'
+
     export default {
         
     }
@@ -14,7 +16,8 @@
 
 <style>
 body {
-    background: black;
+    background: #16171A;
+    background-image: url('/assets/images/universe.jpg');
     height: 100%;
     font-family: 'Libre Franklin', sans-serif;
 }
