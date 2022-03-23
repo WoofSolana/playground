@@ -133,6 +133,7 @@
 
 <script>
     import styling from "@/assets/css/main.css"
+    import sandy from "@/assets/images/woofers/sandy.png"
     export default {
         data() {
             return {

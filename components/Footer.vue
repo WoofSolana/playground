@@ -1,6 +1,6 @@
 <template>
 
-<div class="w-full ">
+<div class="w-full bg-black">
     <div class="footer container mx-auto max-w-2xl relative flex flex-row align-center items-center justify-between py-4 pt-8">
 <!--         <img src="~/assets/svg/woof.svg" alt="" class="w-30 mt-8">
         <p class="copyright text-xs font-light text-gray-400 pt-4">WOOF - Copyright 2021</p>

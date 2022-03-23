@@ -1,14 +1,13 @@
 <template>
-  <body >
-    <div>
-      <Playground />
-    </div>
-  </body>
+    <body>
+        <div class="app container">
+            <Woofers />
+            <Footer />
+        </div>
+    </body>
 </template>
 
 <script>
-import image from '/assets/images/universe.jpg'
-
     export default {
         
     }
@@ -16,8 +15,7 @@ import image from '/assets/images/universe.jpg'
 
 <style>
 body {
-    background: #16171A;
-    background-image: url('/assets/images/universe.jpg');
+    background: black;
     height: 100%;
     font-family: 'Libre Franklin', sans-serif;
 }

@@ -915,8 +915,9 @@ html {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-
-  background-repeat: no-repeat;
+  background-color: #16171A;
+  background: url('https://img.wallpapersafari.com/desktop/1920/1080/81/95/Z7D2q6.jpg');
+  background-position: 50%;
   background-size: 100%;
 }
 img,
