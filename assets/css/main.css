@@ -742,12 +742,12 @@
 } /*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/ */
 
 :root {
-  --common: #949494;
-  --uncommon: #20d58a;
-  --rare: #00b3ff;
-  --epic: #9901f6;
-  --legendary: #ff8101;
-  --mythic: #ed2939;
+  --common-color: #949494;
+  --uncommon-color: #20d58a;
+  --rare-color: #00b3ff;
+  --epic-color: #9901f6;
+  --legendary-color: #ff8101;
+  --mythic-color: #ed2939;
 }
 
 html {
