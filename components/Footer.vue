@@ -2,9 +2,6 @@
 
 <div class="w-full">
     <div class="footer container mx-auto max-w-2xl relative flex flex-row align-center items-center justify-between py-4 pt-8">
-<!--         <img src="~/assets/svg/woof.svg" alt="" class="w-30 mt-8">
-        <p class="copyright text-xs font-light text-gray-400 pt-4">WOOF - Copyright 2021</p>
-        <a href="mailto:woof@woofsolana.com" class="text-xs font-light text-gray-400 py-4">Contact</a> -->
         <p class="copyright text-xs font-light text-gray-400">© 2022 WOOF | All rights reserved</p>
         <div class="max-w-md flex flex-row gap-4 text-center justify-center items-center">
             <a href='https://twitter.com/WoofSolana' target="_blank">

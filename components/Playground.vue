@@ -12,8 +12,8 @@
                 <label for="Background" class="playground-select__label">
                   Background
                 </label>
-                <select id="Background" v-model='selected'  class="playground-select__select">
-                  <option v-for="option in backgrounds" :value="option" class="playground-select__option"> {{ option.text }} </option>
+                <select id="Background" v-model='selected' value="Sandy Gold" class="playground-select__select">
+                  <option v-for="option in backgrounds" :value="option" class="playground-select__option" >{{ option.text }}</option>
                 </select>
               </div>
               <div  class="playground-attribute">
@@ -133,22 +133,19 @@
 
 <script>
     import styling from "@/assets/css/main.css"
-    import sandy from "@/assets/images/woofers/sandy.png"
     export default {
+
         data() {
+            
             return {
-                selected: 'true',
-                skin: 'A',
-                head: 'A',
-                mouth: 'A',
-                eye: 'A',
-                clothing: 'A',
+                selected: 'Sandy Gold',
                 backgrounds: [
-                  { text: 'Sandy Gold', value: 'true', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/sandy.png'), rarity: '50.00%' },
+                  { text: 'Sandy Gold', value: 'A', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/sandy.png'), rarity: '50.00%' },
                   { text: 'East Bay Blue', value: 'B', fact: 'uncommon', color: '#20d58a', image: require('@/assets/images/woofers/blue.png'), rarity: '40.00%' },
                   { text: 'Burgundy', value: 'C', fact: 'epic', color: '#9901f6', image: require('@/assets/images/woofers/burg.png'), rarity: '9.00%' },
                   { text: 'Night Sky', value: "D", fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/night.png'), rarity: '1.00%' }
                 ],
+                skin: 'A',
                 skins: [
                   { text: 'Terrier', value: 'A', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/skin/terrier.png'), rarity: '30.00%' },
                   { text: 'Labrador', value: 'B', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/skin/labrador.png'), rarity: '25.00%' },
@@ -161,6 +158,7 @@
                   { text: 'Woof', value: 'I', fact: 'legendary', color: '#ff8101', image: require('@/assets/images/woofers/skin/woof100.png'), rarity: '1.00%' },
                   { text: 'Skeleton', value: 'J', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/skin/skeleton.png'), rarity: '0.50%' }
                 ],
+                head: 'A',
                 heads: [
                   { text: 'None', value: 'A', fact: 'common', color: '#949494', image: '', rarity: '24.00%' },
                   { text: 'Blue Snapback', value: 'B', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/head/bluesnap.png'), rarity: '8.80%' },
@@ -189,6 +187,7 @@
                   { text: 'Hokage', value: 'Y', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/head/ninja.png'), rarity: '0.50%' },
                   { text: 'Astronaut', value: 'Z', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/head/astronaut.png'), rarity: '0.50%' }
                 ],
+                eye: 'Green Viper',
                 eyes: [
                   { text: 'None', value: 'A', fact: 'common', color: '#949494', image: '', rarity: '35.00%' },
                   { text: 'Glasses', value: 'B', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/eyes/glasses.png'), rarity: '9.30%' },
@@ -209,6 +208,7 @@
                   { text: 'Laser Eyes', value: 'Q', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/eyes/lasereyes.png'), rarity: '0.50%' },
                   { text: 'SOL Vipers', value: 'R', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/eyes/solanaviper.png'), rarity: '0.50%' }
                 ],
+                clothing: 'A',
                 clothings: [
                   { text: 'None', value: 'A', fact: 'common', color: '#949494', image: '', rarity: '20.00%' },
                   { text: 'Red T-Shirt', value: 'B', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/clothing/redshirt.png'), rarity: '12.00%' },
@@ -234,6 +234,7 @@
                   { text: 'Cape', value: 'V', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/clothing/cape.png'), rarity: '0.50%' },
                   { text: 'Astronaut', value: 'W', fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/clothing/astronaut.png'), rarity: '0.50%' }
                 ],
+                mouth: 'A',
                 mouths: [
                   { text: 'None', value: 'A', fact: 'common', color: '#949494', image: '', rarity: '20.00%' },
                   { text: 'Tongue', value: 'B', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/mouth/tongue.png'), rarity: '15.00%' },
