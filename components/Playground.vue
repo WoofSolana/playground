@@ -340,17 +340,17 @@
           ];
 
           return {
-              selected: backgrounds[0],
+              selected: backgrounds[2],
               backgrounds,
-              skin: skins[0],
+              skin: skins[9],
               skins,
-              head: heads[0],
+              head: heads[18],
               heads,
               eye: eyes[0],
               eyes,
               clothing: clothings[0],
               clothings,
-              mouth: mouths[0],
+              mouth: mouths[3],
               mouths
           }
         }
