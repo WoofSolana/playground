@@ -1,4 +1,5 @@
-# WOOF Website
+# WOOF Rarity Playground
+[![Netlify Status](https://api.netlify.com/api/v1/badges/15bce735-36ee-4d9e-836f-19f5e8ae5a43/deploy-status)](https://app.netlify.com/sites/adorable-heliotrope-c5fa1a/deploys)
 
 ## Build Setup
 
