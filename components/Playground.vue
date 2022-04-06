@@ -16,7 +16,7 @@
           rounded-lg
         "
       >
-        <div class="playground__title lg:text-center">WOOF Playground</div>
+        <div class="playground__title lg:text-center">WOOFers Playground</div>
         <div class="playground__wrapper w-full py-4">
           <div class="playground__attributes lg:grid lg:grid-cols-3 pt-5">
             <div class="playground__attribute-wrapper">
