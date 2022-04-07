@@ -5,6 +5,8 @@ https://playground.woofsolana.io/
 
 ![image](https://user-images.githubusercontent.com/93952610/162173649-5c21bbb2-b367-4565-b6c1-01c893d82f6b.png)
 
+## Rarity Playground in Vue.js with TailwindCSS
+
 This repository is made by [WOOF](https://woofsolana.io) the #1 community & meme token on the Solana Blockchain. 
 
 We are aiming to bring our part to the open source, decentralized world and decided to make all of our repositories publicly available for everyone.
@@ -12,7 +14,7 @@ We are aiming to bring our part to the open source, decentralized world and deci
 Step by step more and more projects will be made public and anyone willing to contribute or use it shall be free to do so.
 
 
-## Made in Vue.js with TailwindCSS
+
 
 
 ## Build Setup
