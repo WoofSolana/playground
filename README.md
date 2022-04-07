@@ -12,6 +12,7 @@ We are aiming to bring our part to the open source, decentralized world and deci
 Step by step more and more projects will be made public and anyone willing to contribute or use it shall be free to do so.
 
 
+## Made in Vue.js with TailwindCSS
 
 
 ## Build Setup
