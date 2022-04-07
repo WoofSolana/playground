@@ -16,7 +16,7 @@
                     leave-to-class="opacity-0"
                 >
             <div>
-            <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false"  class="z-50"/>
+            <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false"  class="z-80"/>
             <Hamburger @showMobileMenu="showMobileMenu = true" v-show="!showMobileMenu" />
             </div>
                 </transition>
