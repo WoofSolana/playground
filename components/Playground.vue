@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div class="container max-w-8xl m-auto">
+    <div class="container max-w-8xl m-auto z-50">
       <div
         class="
           playground
@@ -18,7 +18,7 @@
       >
         <div class="playground__title lg:text-center">WOOFers Playground</div>
         <div class="playground__wrapper w-full py-4">
-          <div class="playground__attributes lg:grid lg:grid-cols-3 pt-5">
+          <div class="playground__attributes lg:grid lg:grid-cols-3 pt-5 relative z-40">
             <div class="playground__attribute-wrapper">
               <div class="playground-select">
                 <label for="Background" class="playground-select__label">
