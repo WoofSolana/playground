@@ -40,7 +40,6 @@
         </transition>
       </div>
     </nav>
-    <!--     <div class="h-24 lg:h-0"></div> -->
     <nuxt />
     <Footer />
   </div>
