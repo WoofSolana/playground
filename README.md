@@ -14,7 +14,7 @@ We are aiming to bring our part to the open source, decentralized world and deci
 Step by step more and more projects will be made public and anyone willing to contribute or use it shall be free to do so.
 
 
-
+Built by nyk#3642. Donations: H7tZrYvmLdKwuH37pmwUpSY9esyd1XRB4yvycBkJvKhc (WOOF / SOL / USDC)
 
 
 ## Build Setup

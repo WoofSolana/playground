@@ -1,6 +1,6 @@
 <template>
 
-<div class="w-full">
+<div class="w-full flex flex-col items-center justify-center bg-black">
     <div class="footer container mx-auto max-w-2xl relative flex flex-row align-center items-center justify-between py-4 pt-8">
         <p class="copyright text-xs font-light text-gray-400">© 2022 WOOF | Built with love - All rights reserved</p>      
         <div class="max-w-md flex flex-row gap-4 text-center justify-center items-center">
@@ -30,6 +30,9 @@
                 </svg>
             </a>
         </div>
+    </div>
+    <div class="max-w-2xl flex flex-row text-center justify-center items-center my-8">
+        <p class="copyright text-xs font-light text-gray-400 text-center mx-auto">Built by <a href="https://twitter.com/0x_nyk">nyk#3642</a>. <br>Donations: H7tZrYvmLdKwuH37pmwUpSY9esyd1XRB4yvycBkJvKhc (WOOF / SOL / USDC)</p>
     </div>
 </div>
 
